@@ -42,7 +42,7 @@ Vagrant.configure("2") do |config|
   config.vm.synced_folder ".", "/etc/puppetlabs/code/environments/production"
 
   config.vm.hostname = "demo"
-
+  
   # Provider-specific configuration so you can fine-tune various
   # backing providers for Vagrant. These expose provider-specific options.
   # Example for VirtualBox:

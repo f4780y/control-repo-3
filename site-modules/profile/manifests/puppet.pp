@@ -8,7 +8,7 @@ class profile::puppet {
   cron { 'run-puppet':
     ensure  => present,
     command => '/usr/local/bin/run-puppet',
-    minute  => '*/1',
+    minute  => '*/5',
     hour    => '*',
   }
 
